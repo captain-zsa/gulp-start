@@ -1,0 +1,6 @@
+.main-nav {
+  background-color: #fff;
+}
+.main-nav__container {
+  display: flex;
+}
