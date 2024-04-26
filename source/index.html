@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ваш проект</title>
-        <link rel="stylesheet" href="css/style.min.css">
-    </head>
-    <body>
-        <header class="header">
-            <div class="header__container container">
-                <a class="header__logo">
-                    <img src="img/logo_icon.svg" alt="Логотип Slick">
-                </a>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш проект</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo">
+          <img src="img/logo_icon.svg" alt="Логотип Slick">
+        </a>
 
-                <nav class="header__nav">
-                    <ul class="header__menu">
-                        <li class="header__menu-item">
-                        <a>Главная</a>
-                        </li>
-                        <li class="header__menu-item"><a href="#">Магазин</a></li>
-                        <li class="header__menu-item"><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
+        <nav class="header__nav header__nav--showed">
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a>Главная</a>
+            </li>
 
-                <div class="header__user-actions">
-                    <button class="header__button">
-                        <img src="img/search_icon.svg" alt="Поиск">
-                    </button>
+            <li class="header__menu-item">
+              <a href="#">Магазин</a>
+            </li>
 
-                    <button class="header__button">
-                        <img src="img/shop_icon.svg" alt="Корзина">
-                    </button>
+            <li class="header__menu-item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
 
-                    <button class="header__button header__button--hidden">
-                        <img src="img/menu_icon.svg" alt="Меню">
-                    </button>
-                </div>
-            </div>
-        </header>
-    </body>
+          <div class="header__nav-desription">
+            <p>Следи За Нами <br>
+              В социальных сетях:
+            </p>
+
+            <a href="#">
+              <img src="img/tg_icon.svg" alt="Телеграмм">
+            </a>
+
+            <a href="#">
+              <img src="img/vk_icon.svg" alt="Вконтакте">
+            </a>
+          </div>
+        </nav>
+
+        <div class="header__user-actions">
+          <button class="header__button">
+            <img src="img/search_icon.svg" alt="Поиск">
+          </button>
+
+          <button class="header__button">
+            <span class="header__item-counter">77</span>
+            <img src="img/shop_icon.svg" alt="Корзина">
+          </button>
+
+          <button class="header__button header__button--hidden">
+            <img src="img/menu_icon.svg" alt="Меню">
+          </button>
+
+          <button class="header__button header__button--closed">
+            <img src="img/closed_icon.svg" alt="Закрыть меню">
+          </button>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
