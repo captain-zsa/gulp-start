@@ -1,15 +1,15 @@
 .container {
-    margin: 0 auto;
-    max-width: 1560px;
-    padding: 0 10px;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1728px;
 
-    @media (min-width: 768px) {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+  @media (min-width: 768px) {
+    width: 100%;
+    padding-left: 0px 20px;
+  }
 
-    @media (min-width: 768px) {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
+  @media (min-width: 1728px) {
+    width: 100%;
+    padding: 0px 84px;
+  }
 }
