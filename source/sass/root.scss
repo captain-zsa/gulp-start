@@ -15,29 +15,5 @@ body {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.wrapper {
-  background-color: #0f0;
-  width: 400px;
-  height: 400px;
-  position: relative;
-}
-
-.wrapper-red {
-  width: 100px;
-  height: 100px;
-  background-color: #f00;
-  // position: absolute;
-  // top: 60px;
-  // left: 30px;
-}
-
-.wrapper-yellow {
-  width: 200px;
-  height: 200px;
-  background-color: #ff0;
-  position: fixed;
-  top: 200px;
-  left: 100px;
+  cursor: pointer;
 }
