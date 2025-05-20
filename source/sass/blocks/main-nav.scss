@@ -1,0 +1,54 @@
+.main-nav {
+  background-color: #fff;
+
+  &_burger {
+    @include clear-button;
+
+    
+
+    img {
+      width: 27px;
+      height: 18px;
+      display: block;
+    }
+  }
+
+&_container {
+  display: flex;
+  align-items: center;
+
+}
+
+&_logo {
+  margin-right: 79px;
+}
+
+&_list {
+  @include clear-list;
+
+  display: flex;
+}
+
+&_item {
+  //padding: 18px 47px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
+  line-height: 21px;
+  font-size: 14px;
+
+  a {
+    padding: 18px 39px;
+  }
+}
+
+&_phone {
+
+  color: #3c3c3b;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  margin-left: auto;
+  }
+}
+
