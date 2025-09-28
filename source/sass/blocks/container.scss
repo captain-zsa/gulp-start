@@ -1,0 +1,13 @@
+.container{
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+
+  @media (min-width:768px){
+  padding: 0 16px 0 16px;
+  }
+  @media (min-width:1728px){
+  padding: 0 80px 0 80px;
+  }
+
+
+}
